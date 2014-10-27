@@ -1,5 +1,5 @@
 {
-    "name": "benr77/fetch-bundle",
+    "name": "benr77/FetchBundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle for fetching mails from IMAP",
     "keywords": ["mail","imap"],
