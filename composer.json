@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony bundle for fetching mails from IMAP",
     "keywords": ["mail","imap"],
-    "homepage": "http://github.com/benr77/FetchBundle",
+    "homepage": "http://github.com/benr77/fetch-bundle",
     "license": "MIT",
     "authors": [
         {
