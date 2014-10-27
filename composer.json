@@ -17,7 +17,7 @@
         "tedivm/fetch": "~0.4.3"
     },
     "autoload": {
-        "psr-0": { "Benr77\\FetchBundle": "" }
+        "psr-0": { "Abimus\\FetchBundle": "" }
     },
-    "target-dir": "Benr77/FetchBundle"
+    "target-dir": "Abimus/FetchBundle"
 }
