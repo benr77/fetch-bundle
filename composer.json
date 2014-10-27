@@ -1,9 +1,9 @@
 {
-    "name": "abimus/fetch-bundle",
+    "name": "benr77/fetch-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle for fetching mails from IMAP",
     "keywords": ["mail","imap"],
-    "homepage": "http://github.com/abimus/AbimusFetchBundle",
+    "homepage": "http://github.com/benr77/FetchBundle",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
         "tedivm/fetch": "~0.4.3"
     },
     "autoload": {
-        "psr-0": { "Abimus\\FetchBundle": "" }
+        "psr-0": { "Benr77\\FetchBundle": "" }
     },
-    "target-dir": "Abimus/FetchBundle"
+    "target-dir": "Benr77/FetchBundle"
 }
