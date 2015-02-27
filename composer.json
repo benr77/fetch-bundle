@@ -19,5 +19,10 @@
     "autoload": {
         "psr-0": { "Abimus\\FetchBundle": "" }
     },
-    "target-dir": "Abimus/FetchBundle"
+    "target-dir": "Abimus/FetchBundle",
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
 }
