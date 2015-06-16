@@ -91,6 +91,11 @@ final class FetchConnection extends BaseConnection implements ConnectionInterfac
         return $this->server->createMailBox($mailbox);
     }
 
+    public function getMailBoxDetails($mailbox)
+    {
+        return $this->server->getMailBoxDetails($mailbox);
+    }
+
     public function count()
     {
         return $this->server->numMessages();
