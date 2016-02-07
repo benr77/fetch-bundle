@@ -86,7 +86,7 @@ final class FetchConnection extends BaseConnection implements ConnectionInterfac
         return $this->server->hasMailBox($mailbox);
     }
 
-	public function listMailBox($pattern = '*')
+    public function listMailBox($pattern = '*')
     {
         return $this->server->listMailboxes($pattern);
     }
