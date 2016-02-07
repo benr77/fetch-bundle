@@ -70,6 +70,11 @@ final class FetchConnection extends BaseConnection implements ConnectionInterfac
     {
         return $this->server->getMessages($limit);
     }
+    
+    public function getOrderedMessages($orderBy, $reverse, $limit)
+    {
+        return $this->server->getOrderedMessages($orderBy, $reverse, $limit);
+    }
 
     public function expunge()
     {
