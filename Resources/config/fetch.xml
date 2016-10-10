@@ -17,7 +17,11 @@
             <argument>%abimus_fetch.default_connection%</argument>
         </service>
 
-		<service id="abimus_fetch.connection" class="%abimus_fetch.connection.class%" factory-service="abimus_fetch.connection_factory" factory-method="createConnection" abstract="true" />
+	<service id="abimus_fetch.connection" class="%abimus_fetch.connection.class%" abstract="true">
+            <factory service="abimus_fetch.connection_factory"
+                     method="createConnection"
+            />
+        </service>
 
 		<service id="abimus_fetch.connection_factory" class="%abimus_fetch.connection_factory.class%" />
 	</services>
